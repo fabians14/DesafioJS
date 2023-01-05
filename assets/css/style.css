@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    color: white;
+    width: 180px;
+    height: 270px;
+    border-radius: 5px;
+    border: solid black;
+    background-color: #7ba238;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card .img-card {
+height: 100px;
+background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEjSirs-y9xczjOn6ki8gckeLgcMinQG5aL3Q03bmn1hChsIG1eX109I0M9N3yU3917hAM7ZiGiE-h8k6Mv5yathAMdcxZpBc9BRng1hZbBxcaz0LQ2e0k5bL9QUfwv_x9cIg88Re35lnuCaTQs0Z06KzX8EtK6x7PLMyMSsVOsfG9g3PwITQwvrCkuA=s16000) ;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.card input {
+    width: 80%;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.card-botonera {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card-botonera button {
+    background-color: #e2a308;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+.total-seccion {
+    width: 200px;
+    padding: 35px;
+}
+.total-seccion .color {
+    display: flex;
+}
+.total-seccion .color div {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 1px;
+}
